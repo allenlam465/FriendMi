@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        callbackManager = CallbackManager.Factory.create();
     }
 
     @Override
